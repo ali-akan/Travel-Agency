@@ -1,0 +1,200 @@
+.general {
+  border: 10px solid greenyellow;
+  overflow: hidden;
+}
+
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.sky img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sun {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  z-index: 1;
+}
+
+.sun img {
+  width: 50%;
+  height: auto;
+}
+
+.clouds {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.clouds img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cloudst {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.cloudst img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.birds {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  width: 10%;
+  height: 10%;
+  z-index: 1;
+}
+
+.birds img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: contrast(175%) brightness(3%);
+}
+
+.birdst {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 10%;
+  height: 10%;
+  z-index: 1;
+}
+
+.birdst img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-fit: cover;
+  filter: contrast(175%) brightness(3%);
+}
+
+.sea {
+  position: absolute;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: -3vw;
+  right: 5vw;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.sea img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.island {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: -1vw;
+  z-index: -1;
+}
+
+.island img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.lighthouse {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 7vw;
+  top: 50%;
+  right: 20%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.lighthouse img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lightFirst {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 10%;
+  height: auto;
+  z-index: 1;
+}
+
+.lightFirst img {
+  width: 100%;
+  height: auto;
+}
+
+.lightSecond {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 10%;
+  height: auto;
+  z-index: 1;
+}
+
+.lightSecond img {
+  width: 100%;
+  height: auto;
+}
+
+.car {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  width: 100%;
+  background: url("../../assets/sky.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items {
+  background: url("../../assets/sky.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: block;
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

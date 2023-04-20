@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.dest {
+  width: 100%;
+}
+
+.swi div div img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dest div div div {
+    margin-bottom: 1.8rem;
+  }
+
+  .swi div div img {
+    width: 90%;
+    height: 50%;
+  }
+}
+
+.text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 94, 76);
+  text-shadow: 3px 1px rgb(255, 235, 184);
+}
+
+.dest img {
+  height: 80vh;
+  border: 10px solid #ccc;
+  background: #eee;
+  margin: auto;
+  padding: 1px 1px;
+  width: 100%;
+  border-radius: 50px;
+}

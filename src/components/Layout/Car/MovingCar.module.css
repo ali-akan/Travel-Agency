@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.car {
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  bottom: -5%;
+  left: 15%;
+}
+
+@media (max-width: 600px) {
+  .car {
+    width: 25vw;
+    height: 25vw;
+    bottom: -5%;
+    overflow: hidden;
+  }
+}
+
+.road {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,100 @@
+.container {
+  background-color: rgb(255, 235, 184);
+
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+}
+
+.detailPic {
+  display: flex;
+}
+
+.detailPic h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.detailPic img {
+  border-radius: 300px;
+
+  width: 50%;
+}
+
+.detailPic p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.secondDetail {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.secondDetail img {
+  width: 80%;
+  border-radius: 90px;
+}
+
+.secondDetail p {
+  display: flex;
+  align-items: center;
+}
+
+.secondDetail ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: "✈";
+}
+
+.home {
+  display: none;
+}
+
+@media only screen and (max-width: 880px) {
+  .detailPic {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .detailPic h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    background-color: rgb(255, 235, 184);
+    width: 100%;
+  }
+
+  .detailPic img {
+    width: 100%;
+  }
+
+  .detailPic p {
+    width: 100%;
+  }
+
+  .secondDetail {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .secondDetail img {
+    width: 100%;
+  }
+
+  .home {
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+  }
+}
